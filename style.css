@@ -1,0 +1,200 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+}
+.container {
+    background-color: #ccc;
+    min-height: 100%;
+    display: flex;
+}
+
+.container .cards {
+    width: calc(100% - 300px);
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+
+}
+
+.container .btn-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container .cards .card {
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    flex: 0 0 calc(100% / 3);
+}
+
+.btn-wrapper button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3eb2d5;
+    color: #fff;
+    border: none;
+}
+
+
+
+.bgColor-1 {
+    background-color: #000000;
+}
+
+.bgColor-2 {
+    background-color: #2B8EAD;
+}
+
+.bgColor-3 {
+    background-color: #333333;
+}
+
+.bgColor-4 {
+    background-color: #6F98A8;
+}
+
+
+.bgColor-5 {
+    background-color: #FFFFFF;
+    color: #000 !important;
+}
+
+.bgColor-6 {
+    background-color: #BFBFBF;
+}
+
+.bgColor-7 {
+    background-color: #EFEFEF;
+}
+
+.bgColor-8 {
+    background-color: #2F454E;
+}
+
+.bgColor-9 {
+    background-color: #72C3DC;
+}
+
+
+
+@media (max-width: 768px) {
+
+    h2{
+        background-color: #333333;
+        color: #fff;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .container .cards .card {
+        flex: 0 0 100%;
+        height: 50px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        background: #fff;
+    }
+    .btn-wrapper button {
+        width: 100px;
+    }
+
+    .btn-wrapper,
+    .cards {
+        width: 100% !important;
+    }
+
+    .bgColor-1 {
+        background-color: #ccc;
+        border-left: 20px solid #000;
+        margin: 10px 0px;
+
+    }
+
+    .bgColor-2 {
+        background-color: #ccc;
+        border-left: 20px solid #2B8EAD;
+        margin: 10px 0px;
+    }
+
+    .bgColor-3 {
+        background-color: #ccc;
+        border-left: 20px solid #333333;
+        margin: 10px 0px;
+    }
+
+    .bgColor-4 {
+        background-color: #ccc;
+        border-left: 20px solid #6F98A8;
+        margin: 10px 0px;
+    }
+
+
+    .bgColor-5 {
+
+        background-color: #ccc;
+        border-left: 20px solid #FFFFFF;
+        margin: 10px 0px;
+        color: #000 !important;
+    }
+
+    .bgColor-6 {
+        background-color: #ccc;
+        border-left: 20px solid #BFBFBF;
+        margin: 10px 0px;
+    }
+
+    .bgColor-7 {
+        background-color: #ccc;
+        border-left: 20px solid #EFEFEF;
+        margin: 10px 0px;
+    }
+
+    .bgColor-8 {
+        background-color: #ccc;
+        border-left: 20px solid #2F454E;
+        margin: 10px 0px;
+    }
+
+    .bgColor-9 {
+        background-color: #ccc;
+        border-left: 20px solid #72C3DC;
+        margin: 10px 0px;
+    }
+
+}
